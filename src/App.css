@@ -16,8 +16,124 @@
 }
 
 .logo{
-  font-size: 5rem;
+  font-size: 2rem;
   font-weight: 700;
+}
+
+.navlinks .navlink{
+  list-style: none;
+  text-decoration: none;
+  padding: 1rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.navlink:hover{
+  color: red !important;
 
 }
 
+.banner-img{
+  /* width: 800px; */
+  object-fit: fill;
+}
+
+.about-banner{
+  position: relative;
+}
+.about-banner img{
+  
+}
+
+.about-header{
+  position: absolute ;
+  top: 120px ;
+  left: 560px ;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #000;
+ 
+}
+
+.second{
+  position: absolute ;
+  top: 180px ;
+  left: 530px ;
+}
+
+.about-img{
+  width: 100%;
+  filter: opacity(90%);
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-content h5{
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.about-content p{
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  margin-bottom: 1.5rem;
+}
+
+.error404 h1{
+  text-align: center;
+  font-size: 2rem;
+  color: red;
+
+}
+
+.error404 p{
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.loading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 1.8rem;
+  padding-top: 10rem;
+  padding-left: 4rem;
+}
+
+.users-section{
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+.users-section h1{
+text-align: center;
+border: 1px solid red;
+border-radius: 2px;
+}
+
+.users-section p {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.usersBtn{
+  padding: 5px;
+  border: none;
+  background-color: #232323;
+  color: #fff;
+  border-radius: 2px;
+  margin: 3px;
+}
+
+.prev-next{
+  padding: 5px;
+  border: none;
+}
