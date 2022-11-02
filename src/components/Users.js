@@ -38,7 +38,7 @@ const Users = () => {
 
 
   return (
-    <div>
+    <main>
         <Navigation />
         <div className='users-section'>
           <h1>5 Ways We Conserve Quickly and Durably</h1>
@@ -48,11 +48,13 @@ const Users = () => {
           {data?.results.slice(skip, skip + perPage).map((item, index) => {
             const name = `${item.name.title} ${item.name.first} ${item.name.last}`
             return( 
-              <li key={name.toLowerCase().replaceAll(' ', '')} style={{listStyle: "none", paddingLeft: "1rem"}}>
+              <ul>
+                <li key={name.toLowerCase().replaceAll(' ', '')} style={{listStyle: "none", paddingLeft: "1rem"}}>
                 {`${index + 1}.
                   ${name}`
                 }
-              </li>
+                </li>
+              </ul>
             )
           })}
         
@@ -90,7 +92,7 @@ const Users = () => {
 
         </div>
 
-    </div>
+    </main>
   )
 }
 

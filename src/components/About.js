@@ -4,7 +4,7 @@ import Navigation from './Navigation'
 let url = 'https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/mountain_climber.jpg?crop=0%2C235%2C4000%2C2200&wid=4000&hei=2200&scl=1.0'
 const About = () => {
   return (
-    <div>
+    <main>
       <Navigation />
       <div className='about-section'>
           <div className='about-banner'>
@@ -21,7 +21,7 @@ const About = () => {
         </div>
     </div>
 
-    </div>
+    </main>
 
   )
 }

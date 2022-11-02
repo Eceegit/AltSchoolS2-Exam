@@ -4,9 +4,9 @@ import Navigation from './Navigation'
 const Contact = () => {
   throw new Error('An error has occured!')
   return (
-    <div>
+    <main>
         <Navigation />
-    </div>
+    </main>
   )
 }
 

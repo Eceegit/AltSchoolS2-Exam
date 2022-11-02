@@ -13,7 +13,7 @@ const Navigation = () => {
 
 
   return (
-    <div className='navbar'>
+    <main className='navbar'>
         <div className='logo'>
           AfriNat.
         </div>
@@ -24,7 +24,7 @@ const Navigation = () => {
           <NavLink to="/contact" className='navlink' style={activeStyle}>Contact</NavLink>{' '}
           <NavLink to="/users" className='navlink' style={activeStyle}>Users</NavLink>{' '}
         </nav>
-    </div>
+    </main>
 
   )
 }
