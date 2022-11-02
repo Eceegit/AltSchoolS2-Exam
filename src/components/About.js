@@ -8,10 +8,12 @@ const About = () => {
       <Navigation />
       <div className='about-section'>
           <div className='about-banner'>
-            <h1 className='about-header'>About Us</h1>
-            <h1 className='about-header second'>Who We Are</h1>
+            <div className='about-header'>
+              <h1>About Us</h1>
+              <h2>Who We Are</h2>
+            </div>
             <img src={url} alt='about-img' className='about-img' />
-          </div>
+          </div>         
         <div className='about-content'>
           <h5>The Nature Conservancy is a global environmental 
           nonprofit working to create a world where people and nature can thrive.</h5>
