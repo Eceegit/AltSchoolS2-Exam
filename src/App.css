@@ -19,6 +19,9 @@
   font-size: 2rem;
   font-weight: 700;
 }
+.logo span{
+  color: red;
+}
 
 .navlinks .navlink{
   list-style: none;
@@ -31,6 +34,35 @@
 .navlink:hover{
   color: red !important;
 
+}
+
+#mobile-screen{
+  display: none;
+}
+.toggle{
+  position: fixed;
+  right: 80px;
+  top: 40px;
+}
+
+@media screen and (max-width: 769px){
+  .navlinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: fixed;
+    top: 90px;
+    right: 0;
+    width: 300px;
+    height: 100vh;
+    background-color: #bcb7b7;
+    margin-bottom: 1.5rem;
+  }
+
+  #mobile-screen{
+    display: block;
+  }
 }
 
 .home-section{
@@ -205,4 +237,22 @@ border-radius: 2px;
   width: 100%;
   max-width: 800px;
   background-color: #fff;
+}
+
+.logOut{
+  border: none;
+}
+.logOut{
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: red;
+  color: #232323;
+}
+
+.logOut:hover{
+  cursor: poiter;
+  background-color: #232323;
+  color: #fff;
 }
