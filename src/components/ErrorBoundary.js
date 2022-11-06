@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 
+
+let url = "https://second-semes-exam.web.app/"
+
 export class ErrorBoundary extends Component {
     constructor(props) {
       super(props);
@@ -23,8 +26,10 @@ export class ErrorBoundary extends Component {
       if (this.state.error) {
         // returning the fallback UI
         return (
-          <div>
-            <h1 style={{color: "red", textAlign: "center"}}>Something went wrong.</h1>
+          <div className='errorbound'>
+            <h1 style={{textAlign: "center", marginTop: "13rem", color: "red"}}>Something went wrong.</h1>
+            <p style={{color: "#232323",fontWeight: 500, fontSize: "25px"}}>Please reload the page!</p>
+            <p><a href={url}>AfriNat</a></p>
           </div>
         )
       }

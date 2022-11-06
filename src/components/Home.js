@@ -88,7 +88,7 @@ const Home = () => {
     });
   }, []);
   return (
-    <main>
+    <main className="homepage">
       {user ? isAuthenticated ? (
          (
           <div>
@@ -114,11 +114,13 @@ const Home = () => {
       ) : <div></div> : 
       (
           <Popup trigger={loginPopup} setTrigger={setLoginPopup} >
-            <h3>Welcome to AfriNat</h3>
-            <p>Please sign in with your google accout</p>
-            <button onClick={login} className="login-btn">
-            Login with Google
-            </button>
+           
+              <h3>Welcome to AfriNat</h3>
+              <p>Please sign in with your google accout</p>
+              <button onClick={login} className="login-btn">
+              Login with Google
+              </button>
+            
         </Popup>
                )}
 

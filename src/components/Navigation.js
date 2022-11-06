@@ -26,7 +26,9 @@ class Navigation extends Component  {
             AfriNat<span>.</span>
           </div>
   
-          <nav className='navlinks'>
+          <nav id='navlinks' className={this.state.clicked ? "#navlinks active" :
+            "#navlinks"
+        }>
             <NavLink to="/" className='navlink' style={activeStyle}>Home</NavLink>{' '}
             <NavLink to="/about" className='navlink' style={activeStyle}>About</NavLink>{' '}
             <NavLink to="/contact" className='navlink' style={activeStyle}>Contact</NavLink>{' '}
