@@ -2,6 +2,10 @@
 https://second-semes-exam.web.app/
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Website Implementation Blog
+Here is the link to the article for the step by step implementation of the Website 
+https://esther-raphael.hashnode.dev/how-i-built-the-afrinat-website-from-start-to-finish-explained-with-react
+
 ## Available Scripts
 
 In the project directory, you can run:
